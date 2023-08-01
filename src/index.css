@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(100, 100, 100, 0.5);
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+/*  */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.sv-title {
+  text-align: center;
+  margin: center;
+  font-family: 'Hevaltica, Arial, sans-serif';
+}
+
+.sv-container-modern {
+  width: 100%;
+  margin: center;
+  font-family: 'Hevaltica, Arial, sans-serif';
+}
+
+.sv-question__content {
+  text-align: center;
+  font-family: 'Hevaltica, Arial, sans-serif';
+}
+
+#nav1 {
+  background-color: rgba(100, 100, 100, 0.5);
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+  /* Footer height */
+  background-color: rgba(100, 100, 100, 0.5);
+  text-align: center;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 0.05rem;
+  /* Footer height */
+}
+
+#layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: rgba(100, 100, 100, 0.5); */
+}

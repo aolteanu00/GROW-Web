@@ -1,2 +1,1 @@
-# GROW
- 
+Grow React Client
